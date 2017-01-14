@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
 margin: 0;
 padding: 0;
@@ -7,6 +8,10 @@ body{
   text-align: center;
   font-family: Avenir, sans-serif;
   background-color: #78A66B;
+
+}
+header{
+  width:800px;
   margin:36px auto;
 }
 h1{
@@ -67,12 +72,5 @@ padding-left: 5%;
   bottom: 0;
   background-color: #42633C;
 
-  background-image:
-  radial-gradient(circle at 100% 150%, #42633C 24%, #78A66B 25%, #78A66B 28%, #42633C 29%, #42633C 36%, #78A66B 36%, #78A66B 40%, transparent 40%, transparent),
-  radial-gradient(circle at 0    150%, #42633C 24%, #78A66B 25%, #78A66B 28%, #42633C 29%, #42633C 36%, #78A66B 36%, #78A66B 40%, transparent 40%, transparent),
-  radial-gradient(circle at 50%  100%, #78A66B 10%, #42633C 11%, #42633C 23%, #78A66B 24%, #78A66B 30%, #42633C 31%, #42633C 43%, #78A66B 44%, #78A66B 50%, #42633C 51%, #42633C 63%, #78A66B 64%, #78A66B 71%, transparent 71%, transparent),
-  radial-gradient(circle at 100% 50%, #78A66B 5%, #42633C 6%, #42633C 15%, #78A66B 16%, #78A66B 20%, #42633C 21%, #42633C 30%, #78A66B 31%, #78A66B 35%, #42633C 36%, #42633C 45%, #78A66B 46%, #78A66B 49%, transparent 50%, transparent),
-  radial-gradient(circle at 0    50%, #78A66B 5%, #42633C 6%, #42633C 15%, #78A66B 16%, #78A66B 20%, #42633C 21%, #42633C 30%, #78A66B 31%, #78A66B 35%, #42633C 36%, #42633C 45%, #78A66B 46%, #78A66B 49%, transparent 50%, transparent);
-  background-size:100px 50px;
 
 }

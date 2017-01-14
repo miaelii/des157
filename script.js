@@ -1,32 +1,56 @@
 // p5 file
 
 // open the console window of any browser to see console.log() messages,
-// like print() messages in Processing
-console.log("this is a js comment");
+// like prvar() messages in Processing
+//console.log("this is a js comment");
+//var img;
+//var e1, e2;
 
 function setup() {
-  var myCanvas=createCanvas(800, 250);
-  myCanvas.parent('mySketch');
-  background(255);
-  colorMode(HSB, 360, 100, 100); //turquoise
-  background(21,35,65);
-  noStroke();
-  noSmooth();
-  frameRate(9);
+    createCanvas(800, 250);
+     myCanvas.parent('mySketch');
+    img = loadImage("angryBird.jpg");
+    noStroke();
+    e1 = new Eye(390, 126, 80);
+ e2 = new Eye(432, 126, 80);
+   e3 = new Eye(564, 126, 80);
+ e4 = new Eye(606, 126, 80);
+
 }
 
 function draw() {
-  // statements here
-  if (mouseIsPressed) {
-tint(255, 127);
-  fill(333,random(21,24),random(40,90),random(10,100)); //random shades of green
+    // statements here
 
-    ellipse(mouseX, mouseY, 150, 150);
-  } else {
-tint(255, 127);
-   fill(100,random(16,30),random(30,60),random(10,100)); //random shades of purple
+    e1.update(mouseX, mouseY);
+    e2.update(mouseX, mouseY);
+    e3.update(mouseX, mouseY);
+  e4.update(mouseX, mouseY);
+  e1.display();
+  e2.display();
+  e3.display();
+  e4.display();
+  image(img, 0, 0);
 
-  }
-  ellipse(mouseX, mouseY, 100, 100);
-  ellipse(mouseX, mouseY, 70,70);
 }
+
+function Eye(tx, ty, ts) {
+    this.x = tx;
+    this.y = ty;
+    this.size = ts;
+    this.angle = 0;
+
+    this.update = function(mx, my) {
+        this.angle = atan2(my - this.y, mx - this.x);
+    };
+
+    this.display = function() {
+        push();
+        translate(this.x, this.y);
+        fill(255);
+        ellipse(0, 0, this.size, this.size);
+        rotate(this.angle);
+        fill(153, 204, 0);
+        ellipse(this.size / 4, 0, this.size / 2, this.size / 2);
+        pop();
+    };
+  }
