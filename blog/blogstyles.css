@@ -14,33 +14,25 @@ background-size: contain;
 margin-left: auto;
 margin-right: auto;
 text-align: center;
+width: 500px;
 }
-section{
-
-  margin-bottom:50px;
+article{
+margin-bottom:50px;
 text-align: center;
-margin-left: auto;
-margin-right: auto;
 }
 
 p{
-  width: 500px;
-  margin-left: auto;
-  margin-right: auto;
   text-align: justify;
   padding-bottom: 25px;
 }
 img{
-  width: 500px;
-  margin-left: auto;
-  margin-right: auto;
+
   padding-bottom: 15px;
 }
 
-h1{
+header{
 font-size: 26pt;
 font-weight: lighter;
-width: 500px;
 top: 10px;
 padding-top: 30px;
 padding-bottom: 30px;
@@ -48,23 +40,17 @@ font-size: 30pt;
 font-weight: lighter;
 text-align: center;
 letter-spacing: 16px;
-margin-left: auto;
-margin-right: auto;
 color: #A66B75;
 }
 
 hr{
-  width: 500px;
   display: block;
   border-style: solid;
   border-width: light;
 color: #A66B75;
 }
 footer{
-  width: 500px;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
 }
 footer p{
   text-align: right;

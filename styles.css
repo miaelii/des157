@@ -14,9 +14,11 @@ header{
   width:800px;
   margin:36px auto;
 }
+h1, h2, h3{
+  font-weight: lighter;
+}
 h1{
 font-size: 26pt;
-font-weight: lighter;
 letter-spacing: 8px;
 color: #1EFF00;
 }
@@ -24,18 +26,17 @@ h2{
   text-decoration: none;
   font-size: 20pt;
   color: #1EFF00;
-  font-weight: lighter;
   text-align: left;
 }
 h3{
   text-align: left;
   font-size: 20pt;
-  font-weight: lighter;
   padding-bottom: 7px;
 }
 li{
   list-style-type: none;
   text-align: left;
+  line-height: 160%;
 }
 li img {
     width: 32px;
@@ -44,27 +45,29 @@ li img {
 section{
   padding-top: 15px;
 }
-.exercises{
-  float: left;
 
-    padding:2%;
-    width: 22.66%;
-    margin-left: 5%;
-
-}
-.studios{
-  float: left;
-  padding:2%;
-  width: 22.66%;
-  margin-left: 5%;
-
-}
-.projects{
+.exercises, .studios, .projects{
   float:left;
   padding:2%;
   width: 22.66%;
   margin-left: 5%;
 }
+/* unvisited link */
+a:link {
+    color: #00FFCB;
+}
+
+/* visited link */
+a:visited {
+    color: #E800BA;
+}
+
+
+/* selected link */
+a:active {
+    color: #B6FF0D;
+}
+
 footer{
 padding-left: 5%;
   position: absolute;
