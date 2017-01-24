@@ -24,7 +24,6 @@ text-align: center;
 h2{
   text-align: left;
   font-size: 20pt;
-  padding-bottom: 
 }
 p{
   text-align: justify;
@@ -78,7 +77,6 @@ a :active {
 hr{
   display: block;
   border-style: solid;
-  border-width: light;
 color: #A66B75;
 }
 footer{
