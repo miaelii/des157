@@ -16,10 +16,13 @@ header, p{
   color: #1EFF00;
   line-height: 30px;
 }
+p{
+  text-align: left;
+}
 footer{
   position: absolute;
   width: 100%;
-  bottom: 0;
+  margin-bottom: 0;
 }
 /* unvisited link */
 a:link {

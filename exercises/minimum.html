@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Chapter 2: Looping</title>
+    <title>Chapter 3: Looping</title>
     <style>
         * {
             margin: 0px;
@@ -26,10 +26,19 @@
 </head>
 
 <body>
-    <h1>Chapter 2 - Looping</h1>
+    <h1>Chapter 3 - Minimum</h1>
     <h2>open the console to see the results of the script</h2>
     <script>
-    for (var line = "#"; line.length < 8; line += "#")
-      console.log(line);
+    function min(a, b) {
+      if (a < b)
+        return a;
+      else
+        return b;
+    }
+
+    console.log(min(0, 10));
+    // → 0
+    console.log(min(0, -10));
+    // → -10
     </script>
 </body>
