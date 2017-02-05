@@ -1,0 +1,24 @@
+@charset "UTF-8";
+* {
+margin: 0;
+padding: 0;
+}
+
+body, a{
+  text-align: center;
+font-family: 'Share Tech Mono', monospace;
+background: url(twinkle_twinkle.png) repeat;
+background-size: contain;
+  color: #1EFF00;
+    line-height: 30px;
+      margin:36px auto;
+}
+header{
+  color: #00FFCB;
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}

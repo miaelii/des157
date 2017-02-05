@@ -1,0 +1,106 @@
+* {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16pt;
+    color: black;
+    background: url(texture.png) repeat;
+    background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 500px;
+}
+
+article {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+    font-size: 20pt;
+}
+
+p {
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+img {
+    padding-bottom: 15px;
+}
+
+header {
+    font-size: 26pt;
+    font-weight: lighter;
+    top: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30pt;
+    font-weight: lighter;
+    text-align: center;
+    letter-spacing: 16px;
+    color: #A66B75;
+}
+
+h1 {
+    text-align: center;
+    font-size: 20pt;
+    background-color: #A66B75;
+    border-style: solid;
+    margin-bottom: 15px;
+    border-color: #A66B75;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* unvisited link */
+
+a :link {
+    color: white;
+}
+
+
+/* visited link */
+
+a :visited {
+    color: gray;
+}
+
+
+/* selected link */
+
+a :active {
+    color: black;
+}
+
+hr {
+    display: block;
+    border-style: solid;
+    color: #A66B75;
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+div:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    /* For IE8 and earlier */
+}

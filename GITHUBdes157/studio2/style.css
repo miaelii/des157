@@ -1,0 +1,58 @@
+
+/* CSS Document */
+
+
+/* start all css with a reset */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+form {
+    columns: 4;
+    font-size: 16pt;
+}
+
+body {
+    font-family: '', monospace;
+    color: black;
+    font-family: 'Arapey', serif;
+    font-size: 25pt;
+    text-align: left;
+}
+
+#myMsg {
+    font-size: 40pt;
+    text-align: center;
+    margin-top: 3%;
+}
+
+#myQuote {
+    text-align: center;
+    font-size: 20pt;
+}
+
+#myIngredients {
+    float: left;
+    width: 400px;
+    margin-left: 20%;
+    background-color: #FFB4BA;
+    padding: 3%;
+    margin-top: 3%;
+}
+
+#myDirections {
+    float: right;
+    width: 400px;
+    margin-right: 20%;
+    background-color: #FFF98B;
+    padding: 3%;
+    margin-top: 3%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    margin-top: 5%;
+}
