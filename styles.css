@@ -10,6 +10,9 @@ font-family: 'Share Tech Mono', monospace;
 background: url(twinkle_twinkle.png) repeat;
 background-size: contain;
 }
+h1{
+  color: white;
+}
 header{
   width:800px;
   margin:36px auto;
