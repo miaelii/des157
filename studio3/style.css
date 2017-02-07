@@ -55,7 +55,7 @@ main img {
 
 #mountain1:hover, #mountain2:hover, #mountain3:hover, #mountain4:hover, #mountain5:hover, #mountain6:hover, #mountain7:hover, #mountain8:hover {
     opacity: 0;
-    shape-margin: none;
+    /*shape-margin: none;*/
 }
 
 #sundes, #birddes, #spacedes, #disneydes, #hawaiides, #falldes, #lakedes, #peades {
