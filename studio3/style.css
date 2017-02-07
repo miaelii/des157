@@ -18,12 +18,13 @@ body {
 
 h1, h2 {
     color: white;
-    margin-left: 19%;
     padding-top: 25px;
+    text-align: center;
 }
 
 h2 {
     font-size: 16pt;
+    padding-top: 15px;
 }
 
 h3 {
@@ -32,14 +33,24 @@ h3 {
 
 #mountain, #interior, #description {
     position: absolute;
-    margin: -50px 0 0 -50px;
-    left: 20%;
-    top: 20%;
+    left: 0;
+    top: 150px;
 }
 
 p {
     padding: 5%;
     padding-top: 30%;
+}
+
+main {
+    margin: 0 auto;
+    position: relative;
+    width: 1160px;
+}
+
+main img {
+    float: left;
+    vertical-align: bottom;
 }
 
 #mountain1:hover, #mountain2:hover, #mountain3:hover, #mountain4:hover, #mountain5:hover, #mountain6:hover, #mountain7:hover, #mountain8:hover {
@@ -58,7 +69,7 @@ p {
 
 #mountain1, #mountain2, #mountain3, #mountain4, #mountain6, #mountain7, #mountain8, #sun, #bird, #space, #disney, #fall, #lake, #pea, #sundes, #birddes, #spacedes, #disneydes, #falldes, #lakedes, #peades {
     float: left;
-    border: 25px solid black;
+    border: 20px solid black;
     text-align: center;
 }
 
@@ -71,7 +82,7 @@ p {
 #mountain5, #hawaii, #hawaiides {
     clear: both;
     float: left;
-    border: 25px solid black;
+    border: 20px solid black;
     text-align: center;
 }
 
@@ -87,10 +98,9 @@ aside .close {
 
 footer {
     position: fixed;
-    bottom: 0px;
-    font-size: 25pt;
-    margin: auto;
-    left: 19%
+    bottom: 0;
+    font-size: 15pt;
+    left: 38%
 }
 
 a:link {
