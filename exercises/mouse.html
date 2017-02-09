@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ch.14 Mouse Trail</title>
+    <style>
+        .trail {
+            /* className for the trail elements */
+            position: absolute;
+            height: 10px;
+            width: 10px;
+            border-radius: 20px;
+            background: #56E0E5;
+        }
+
+        body {
+            background: #399599;
+            height: 300px;
+        }
+
+        h1 {
+            color: white;
+            font-family: sans-serif;
+            margin-left: 3%;
+            font-size: 45pt;
+        }
+    </style>
+
+    <body>
+        <h1>Ch. 14 Mouse Trail</h1>
+        <script>
+            var dots = [];
+            for (var i = 0; i < 62; i++) {
+                var node = document.createElement("div");
+                node.className = "trail";
+                document.body.appendChild(node);
+                dots.push(node);
+            }
+            var currentDot = 0;
+
+            addEventListener("mousemove", function(event) {
+                var dot = dots[currentDot];
+                dot.style.left = (event.pageX - 1) + "px";
+                dot.style.top = (event.pageY - 1) + "px";
+                currentDot = (currentDot + 1) % dots.length;
+            });
+        </script>
+    </body>
+
+</html>

@@ -1,0 +1,38 @@
+@charset "UTF-8";
+* {
+margin: 0;
+padding: 0;
+}
+
+body{
+  text-align: center;
+font-family: 'Share Tech Mono', monospace;
+background: url(twinkle_twinkle.png) repeat;
+background-size: contain;
+}
+header, p{
+  width:500px;
+  margin:36px auto;
+  color: #1EFF00;
+  line-height: 30px;
+}
+footer{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+/* unvisited link */
+a:link {
+    color: #00FFCB;
+}
+
+/* visited link */
+a:visited {
+    color: #E800BA;
+}
+
+
+/* selected link */
+a:active {
+    color: #B6FF0D;
+}
