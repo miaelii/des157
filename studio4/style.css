@@ -53,14 +53,14 @@ font-family: 'Clicker Script', cursive;
 main {
     margin: 0 auto;
     position: relative;
-    width: 495px;
+    width: 485px;
     height: 700px;
 }
 
 
 img{
   position: absolute;
-  width: 495px;
+  width: 485px;
   text-align: center;
   z-index: auto;
   right: 0px;
