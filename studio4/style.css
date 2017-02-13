@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+html{
+  background: url("mt.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+
+
+line-height: 1;
+color: white;
+text-align: center;
+font-size: 30pt;
+font-family: 'Clicker Script', cursive;
+  }
+
+main {
+    margin: 0 auto;
+    position: relative;
+    width: 465px;
+    height: 700px;
+}
+
+
+img{
+  position: absolute;
+  width: 501px;
+  text-align: center;
+  z-index: auto;
+  right: 0px;
+  top: 0;
+margin-top: 10%;
+}
+#timer{
+  position: absolute;
+}
+#heartshover, #happyhover, #msghover{
+  opacity: 0;
+}
+#msg{
+  margin-top: 105%;
+  position: absolute;
+  width: 100%;
+  font-family: 'Oranienbaum', serif;
+  font-size: 18pt;
+}
+#happy{
+  margin-top: 145%;
+  position: absolute;
+  font-family: 'Oranienbaum', serif;
+  font-size: 20pt;
+}
+
+.timercontent {
+    border-radius: 25px;
+    border: solid #006837;
+    float: left;
+    padding: 1px;
+    margin: 4px;
+    width: 100px;
+    display: inline;
+    border-style: solid;
+    border-width: medium;
+    font-size: 20pt;
+    margin-top: 120%;
+
+}
+.timercontent: hover{
+      color: black;
+}
+a{
+  text-decoration: none;
+}
+/* unvisited link */
+a:link {
+    color: #9E005D;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+footer {
+left:0;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    display: inline;
+font-size: 20pt;
+}
+
+
+
+/* add your custom css here */
