@@ -60,7 +60,7 @@ main {
 
 img{
   position: absolute;
-  width: 501px;
+  width: 465px;
   text-align: center;
   z-index: auto;
   right: 0px;
@@ -101,9 +101,7 @@ margin-top: 10%;
     margin-top: 120%;
 
 }
-.timercontent: hover{
-      color: black;
-}
+
 a{
   text-decoration: none;
 }
