@@ -124,11 +124,12 @@ a:hover {
 
 footer {
    left: 0;
-    width: 50%;
+    width: 100%;
     bottom: 0;
     position: absolute;
     display: inline;
-font-size: 20pt;
+    font-size: 20pt;
+    text-align: left;
 }
 
 
