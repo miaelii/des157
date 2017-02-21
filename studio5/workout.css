@@ -1,167 +1,169 @@
-            @charset "UTF-8";
-        /* CSS Document */
-        /* http://meyerweb.com/eric/tools/css/reset/
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
 
-        html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-            margin: 0;
-            padding: 0;
-            border: 0;
-            font-size: 100%;
-            font: inherit;
-            vertical-align: baseline;
-        }
-        /* HTML5 display-role reset for older browsers */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
 
-        article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-            display: block;
-        }
 
-        body {
-            line-height: 1;
-            background-color: #668783;
-            color: #E59C40;
-            font-family: Futura-CondensedMedium, sans-serif;
-            margin: 0;
-        }
+/* HTML5 display-role reset for older browsers */
 
-        ol, ul {
-            list-style: none;
-        }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
 
-        blockquote, q {
-            quotes: none;
-        }
+body {
+    line-height: 1;
+    background-color: #668783;
+    color: #E59C40;
+    font-family: Futura-CondensedMedium, sans-serif;
+    margin: 0;
+}
 
-        blockquote:before, blockquote:after, q:before, q:after {
-            content: '';
-            content: none;
-        }
+ol, ul {
+    list-style: none;
+}
 
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
+blockquote, q {
+    quotes: none;
+}
 
-        @keyframes maintrans {
-            from {
-                margin-top: -90%;
-                opacity: 0;
-            }
-            to {
-                margin-top: 25%;
-                opacity: 1;
-            }
-        }
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
 
-        main {
-            margin: auto;
-            width: 60%;
-            text-align: center;
-            margin-top: 25%;
-            padding: 25px;
-            animation-name: maintrans;
-            animation-duration: 2s;
-            background-color: white;
-        }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 
-        header {
-            font-size: 50pt;
-        }
+@keyframes maintrans {
+    from {
+        margin-top: -90%;
+        opacity: 0;
+    }
+    to {
+        margin-top: 25%;
+        opacity: 1;
+    }
+}
 
-        input {
-            height: 50pt;
-            width: 50pt;
-        }
+main {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    margin-top: 25%;
+    padding: 25px;
+    animation-name: maintrans;
+    animation-duration: 2s;
+    background-color: white;
+}
 
-        input[type="checkbox"] {
-            white-space: nowrap;
-            color: red;
-        }
+header {
+    font-size: 50pt;
+}
 
-        input[type=submit] {
-            padding: 15px 35px;
-            background: #ccc;
-            color: gray;
-            border: 0 none;
-            cursor: pointer;
-            font-size: 20pt;
-            -webkit-border-radius: 5px;
-            border-radius: 5px;
-            width: 190px;
-        }
+input {
+    height: 50pt;
+    width: 50pt;
+}
 
-        div {
-            text-align: center;
-            margin-top: 5%;
-        }
+input[type="checkbox"] {
+    white-space: nowrap;
+    color: red;
+}
 
-        form {
-            width: 100%;
-            text-align: left;
-            font-size: 45pt;
-            margin-top: 5%;
-            margin-bottom: 5%;
-            background-color: white;
-        }
+input[type=submit] {
+    padding: 15px 35px;
+    background: #ccc;
+    color: gray;
+    border: 0 none;
+    cursor: pointer;
+    font-size: 20pt;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 190px;
+}
 
-        li {
-            float: left;
-            width: 25%;
-        }
+div {
+    text-align: center;
+    margin-top: 5%;
+}
 
-        li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 45px 16px;
-            text-decoration: none;
-            font-size: 40pt;
-        }
+form {
+    width: 100%;
+    text-align: left;
+    font-size: 45pt;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: white;
+}
 
-        li #work {
-            background-color: #668783;
-            color: white;
-        }
+li {
+    float: left;
+    width: 25%;
+}
 
-        ol {
-            position: absolute;
-            top: 0;
-            width: 100%;
-        }
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 45px 16px;
+    text-decoration: none;
+    font-size: 40pt;
+}
 
-        a {
-            text-decoration: none;
-            display: block;
-            padding: 8px;
-            background: #E59C40;
-        }
+li #work {
+    background-color: #668783;
+    color: white;
+}
 
-        #check {
-            margin: auto;
-            text-align: center;
-            margin-top: 30%;
-            width: 313px;
-            height: 313px;
-            background: url('check-01.png') no-repeat;
-        }
+ol {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
 
-        #check.active {
-            animation: play 1.8s steps(19) forwards;
-        }
+a {
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    background: #E59C40;
+}
 
-        @keyframes play {
-            from {
-                background-position: 0px;
-            }
-            to {
-                background-position: -5937px;
-            }
+#check {
+    margin: auto;
+    text-align: center;
+    margin-top: 30%;
+    width: 313px;
+    height: 313px;
+    background: url('check-01.png') no-repeat;
+    animation: play 1.8s steps(19) forwards;
+}
+
+@keyframes play {
+    from {
+        background-position: 0px;
+    }
+    to {
+        background-position: -5937px;
+    }
