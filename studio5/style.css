@@ -92,10 +92,8 @@ a {
     width: 727.8666666666666667px;
     height: 625px;
     background: url('fit-01.png') no-repeat;
-
     animation: play 1.8s steps(14) forwards;
 }
-
 
 @keyframes play {
     from {

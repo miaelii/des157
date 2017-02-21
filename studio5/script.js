@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         myMsg.innerHTML = ('Congratulations! You have completed Day 1!');
 
-document.getElementById(‘check’).setAttribute(‘class’, ‘active’);
+        document.getElementById(‘check’).setAttribute(‘class’, ‘active’);
 
 
 
