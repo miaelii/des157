@@ -150,14 +150,20 @@ a {
     background: #E59C40;
 }
 
+/* hidden state */
 #check {
     margin: auto;
     text-align: center;
-    margin-top: 30%;
-    width: 313px;
-    height: 313px;
-    background: url('check-01.png') no-repeat;
-    animation: play 1.8s steps(19) forwards;
+
+}
+
+/* active state */
+#check.active {
+  margin-top: 30%;
+  background: url('check-01.png') no-repeat;
+  animation: play 1.8s steps(19) forwards;
+  width: 313px;
+  height: 313px;
 }
 
 @keyframes play {

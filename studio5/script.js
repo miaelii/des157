@@ -12,14 +12,14 @@ document.addEventListener("DOMContentLoaded", function() {
     function processForm() {
 
         var myMsg = document.getElementById('myMsg');
-        var check = document.querySelector('check');
+        var check = document.getElementById('check');
 
         //store user name in a variable
 
 
         myMsg.innerHTML = ('Congratulations! You have completed Day 1!');
 
-        document.getElementById(‘check’).setAttribute(‘class’, ‘active’);
+        check.setAttribute('class','active');
 
 
 
