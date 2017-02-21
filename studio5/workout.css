@@ -151,6 +151,8 @@ a {
     width: 313px;
     height: 313px;
     background: url('check-01.png') no-repeat;
+  }
+  #check.active{
     -webkit-animation: play 1.8s steps(19) forwards;
     -moz-animation: play 1.8s steps(20) infinite;
     -ms-animation: play 1.8s steps(20) infinite;

@@ -92,48 +92,10 @@ a {
     width: 727.8666666666666667px;
     height: 625px;
     background: url('fit-01.png') no-repeat;
-    -webkit-animation: play 1.8s steps(14) forwards;
-    -moz-animation: play 1.8s steps(15) infinite;
-    -ms-animation: play 1.8s steps(15) infinite;
-    -o-animation: play 1.8s steps(15) infinite;
+
     animation: play 1.8s steps(14) forwards;
 }
 
-@-webkit-keyframes play {
-    from {
-        background-position: 0px;
-    }
-    to {
-        background-position: -10190.1333333px;
-    }
-}
-
-@-moz-keyframes play {
-    from {
-        background-position: 0px;
-    }
-    to {
-        background-position: -10918px;
-    }
-}
-
-@-ms-keyframes play {
-    from {
-        background-position: 0px;
-    }
-    to {
-        background-position: -10918px;
-    }
-}
-
-@-o-keyframes play {
-    from {
-        background-position: 0px;
-    }
-    to {
-        background-position: -10918px;
-    }
-}
 
 @keyframes play {
     from {
