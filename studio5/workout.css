@@ -1,207 +1,167 @@
-        @charset "UTF-8";
-    /* CSS Document */
-    /* http://meyerweb.com/eric/tools/css/reset/
+            @charset "UTF-8";
+        /* CSS Document */
+        /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
 
-    html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font-size: 100%;
-        font: inherit;
-        vertical-align: baseline;
-    }
-    /* HTML5 display-role reset for older browsers */
-
-    article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-        display: block;
-    }
-
-    body {
-        line-height: 1;
-        background-color: #668783;
-        color: #E59C40;
-        font-family: Futura-CondensedMedium, sans-serif;
-        margin: 0;
-    }
-
-    ol, ul {
-        list-style: none;
-    }
-
-    blockquote, q {
-        quotes: none;
-    }
-
-    blockquote:before, blockquote:after, q:before, q:after {
-        content: '';
-        content: none;
-    }
-
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-    }
-
-    @keyframes maintrans {
-        from {
-            margin-top: -90%;
-            opacity: 0;
+        html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
         }
-        to {
+        /* HTML5 display-role reset for older browsers */
+
+        article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+
+        body {
+            line-height: 1;
+            background-color: #668783;
+            color: #E59C40;
+            font-family: Futura-CondensedMedium, sans-serif;
+            margin: 0;
+        }
+
+        ol, ul {
+            list-style: none;
+        }
+
+        blockquote, q {
+            quotes: none;
+        }
+
+        blockquote:before, blockquote:after, q:before, q:after {
+            content: '';
+            content: none;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @keyframes maintrans {
+            from {
+                margin-top: -90%;
+                opacity: 0;
+            }
+            to {
+                margin-top: 25%;
+                opacity: 1;
+            }
+        }
+
+        main {
+            margin: auto;
+            width: 60%;
+            text-align: center;
             margin-top: 25%;
-            opacity: 1;
+            padding: 25px;
+            animation-name: maintrans;
+            animation-duration: 2s;
+            background-color: white;
         }
-    }
 
-    main {
-        margin: auto;
-        width: 60%;
-        text-align: center;
-        margin-top: 25%;
-        padding: 25px;
-        animation-name: maintrans;
-        animation-duration: 2s;
-        background-color: white;
-    }
-
-    header {
-        font-size: 50pt;
-    }
-
-    input {
-        height: 50pt;
-        width: 50pt;
-    }
-
-    input[type="checkbox"] {
-        white-space: nowrap;
-        color: red;
-    }
-
-    input[type=submit] {
-        padding: 15px 35px;
-        background: #ccc;
-        color: gray;
-        border: 0 none;
-        cursor: pointer;
-        font-size: 20pt;
-        -webkit-border-radius: 5px;
-        border-radius: 5px;
-        width: 190px;
-    }
-
-    div {
-        text-align: center;
-        margin-top: 5%;
-    }
-
-    form {
-        width: 100%;
-        text-align: left;
-        font-size: 45pt;
-        margin-top: 5%;
-        margin-bottom: 5%;
-        background-color: white;
-    }
-
-    li {
-        float: left;
-        width: 25%;
-    }
-
-    li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 45px 16px;
-        text-decoration: none;
-        font-size: 40pt;
-    }
-
-    li #work {
-        background-color: #668783;
-        color: white;
-    }
-
-    ol {
-        position: absolute;
-        top: 0;
-        width: 100%;
-    }
-
-    a {
-        text-decoration: none;
-        display: block;
-        padding: 8px;
-        background: #E59C40;
-    }
-
-    #check {
-        margin: auto;
-        text-align: center;
-        margin-top: 30%;
-        width: 313px;
-        height: 313px;
-        background: url('check-01.png') no-repeat;
-    }
-
-    #check.active {
-        -webkit-animation: play 1.8s steps(19) forwards;
-        -moz-animation: play 1.8s steps(20) infinite;
-        -ms-animation: play 1.8s steps(20) infinite;
-        -o-animation: play 1.8s steps(20) infinite;
-        animation: play 1.8s steps(19) forwards;
-    }
-
-    @-webkit-keyframes play {
-        from {
-            background-position: 0px;
+        header {
+            font-size: 50pt;
         }
-        to {
-            background-position: -5937px;
-        }
-    }
 
-    @-moz-keyframes play {
-        from {
-            background-position: 0px;
+        input {
+            height: 50pt;
+            width: 50pt;
         }
-        to {
-            background-position: -6250px;
-        }
-    }
 
-    @-ms-keyframes play {
-        from {
-            background-position: 0px;
+        input[type="checkbox"] {
+            white-space: nowrap;
+            color: red;
         }
-        to {
-            background-position: -6250px;
-        }
-    }
 
-    @-o-keyframes play {
-        from {
-            background-position: 0px;
+        input[type=submit] {
+            padding: 15px 35px;
+            background: #ccc;
+            color: gray;
+            border: 0 none;
+            cursor: pointer;
+            font-size: 20pt;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+            width: 190px;
         }
-        to {
-            background-position: -6250px;
-        }
-    }
 
-    @keyframes play {
-        from {
-            background-position: 0px;
+        div {
+            text-align: center;
+            margin-top: 5%;
         }
-        to {
-            background-position: -5937px;
+
+        form {
+            width: 100%;
+            text-align: left;
+            font-size: 45pt;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            background-color: white;
         }
+
+        li {
+            float: left;
+            width: 25%;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 45px 16px;
+            text-decoration: none;
+            font-size: 40pt;
+        }
+
+        li #work {
+            background-color: #668783;
+            color: white;
+        }
+
+        ol {
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+
+        a {
+            text-decoration: none;
+            display: block;
+            padding: 8px;
+            background: #E59C40;
+        }
+
+        #check {
+            margin: auto;
+            text-align: center;
+            margin-top: 30%;
+            width: 313px;
+            height: 313px;
+            background: url('check-01.png') no-repeat;
+        }
+
+        #check.active {
+            animation: play 1.8s steps(19) forwards;
+        }
+
+        @keyframes play {
+            from {
+                background-position: 0px;
+            }
+            to {
+                background-position: -5937px;
+            }
