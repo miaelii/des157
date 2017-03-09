@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  background-color: #668783;
+  font-family: Futura-CondensedMedium, sans-serif;
+}
+
+form {
+  margin-top: 500px;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+#getstarted {
+  text-align: center;
+  margin-top: 75%;
+  width: 100%;
+  font-stretch: condensed;
+  font-size: 40px;
+  padding: 30px;
+  border-radius: 25px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #E59C40;
+}
+
+main {
+  width: 100%;
+  text-align: center;
+}
+
+a#getstarted {
+  text-decoration: none;
+  color: white;
+}
+
+a#getstarted:active {
+  color: #CFEDFC;
+  background: #F7941E;
+}
+
+footer {
+  margin: auto;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.fit {
+  margin: auto;
+  text-align: center;
+  margin-top: 30%;
+  width: 727.8666666666666667px;
+  height: 625px;
+  background: url('fit-01.png') no-repeat;
+  animation: play 1.8s steps(14) forwards;
+}
+
+@keyframes play {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -10190.1333333px;
+  }
+}
+
+
+/* add your custom css here */
