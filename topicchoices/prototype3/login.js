@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 var uid = user.uid;
                 var providerData = user.providerData;
                 // ...
-                overlay.style.display = "none";
+                overlay.style.visibility = "hidden";
                 console.log(user.displayName);
             } else {
                 // User is signed out.
