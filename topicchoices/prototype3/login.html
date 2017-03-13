@@ -4,19 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <title>DOMContentLoaded template</title>
-    <link href="login.css" rel="stylesheet"/>
+    <link href="login.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 </head>
 
 <body>
-
-      <button type='button' id='sign-in-button'>Sign In</button>
-<button type='button' id='sign-out-button'>Sign Out</button>
-
-<section id="firebase-output"></section>
-
-        <!--add your html here-->
-        <!--add links to validators-->
+    <section id="overlay">
+        <button type='button' id='sign-in-button'>Sign In</button>
+        <button type='button' id='sign-out-button'>Sign Out</button>
+        <section id="firebase-output"></section>
+    </section>
+    <!--add your html here-->
+    <!--add links to validators-->
 
     <footer>
         <nav>
@@ -27,18 +26,18 @@
         </nav>
     </footer>
     <script src="https://www.gstatic.com/firebasejs/3.7.1/firebase.js"></script>
-  <script>
-    // Initialize Firebase
-    var config = {
-      apiKey: "AIzaSyCKLQs0n1QycdZ2iS17puJEw63ccdpWY6Q",
-      authDomain: "fit-fifteen.firebaseapp.com",
-      databaseURL: "https://fit-fifteen.firebaseio.com",
-      storageBucket: "fit-fifteen.appspot.com",
-      messagingSenderId: "528875052689"
-    };
-    firebase.initializeApp(config);
-  </script>
-   <script src="login.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyCKLQs0n1QycdZ2iS17puJEw63ccdpWY6Q",
+            authDomain: "fit-fifteen.firebaseapp.com",
+            databaseURL: "https://fit-fifteen.firebaseio.com",
+            storageBucket: "fit-fifteen.appspot.com",
+            messagingSenderId: "528875052689"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script src="login.js"></script>
 </body>
 
 </html>
