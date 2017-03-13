@@ -9,17 +9,15 @@
 </head>
 
 <body>
-    <main>
-      <section id="page-splash">
-        <h3 class="logo">Database Web Quickstart</h3>
-        <div>
-          <button id="sign-in-button" class="mdl-button--raised mdl-button mdl-js-button mdl-js-ripple-effect"><i class="material-icons">account_circle</i> Sign in with Google</button>
-        </div>
-      </section>
+
+      <button type='button' id='sign-in-button'>Sign In</button>
+<button type='button' id='sign-out-button'>Sign Out</button>
+
+<section id="firebase-output"></section>
 
         <!--add your html here-->
         <!--add links to validators-->
-    </main>
+
     <footer>
         <nav>
             <ul>
@@ -29,18 +27,17 @@
         </nav>
     </footer>
     <script src="https://www.gstatic.com/firebasejs/3.7.1/firebase.js"></script>
-    <script>
-      // Initialize Firebase
-      // TODO: Replace with your project's customized code snippet
-      var config = {
-        apiKey: "<API_KEY>",
-        authDomain: "<PROJECT_ID>.firebaseapp.com",
-        databaseURL: "https://<DATABASE_NAME>.firebaseio.com",
-        storageBucket: "<BUCKET>.appspot.com",
-        messagingSenderId: "<SENDER_ID>",
-      };
-      firebase.initializeApp(config);
-    </script>  
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyCKLQs0n1QycdZ2iS17puJEw63ccdpWY6Q",
+      authDomain: "fit-fifteen.firebaseapp.com",
+      databaseURL: "https://fit-fifteen.firebaseio.com",
+      storageBucket: "fit-fifteen.appspot.com",
+      messagingSenderId: "528875052689"
+    };
+    firebase.initializeApp(config);
+  </script>
 </body>
 
 </html>
