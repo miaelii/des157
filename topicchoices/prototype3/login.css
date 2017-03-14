@@ -99,6 +99,9 @@ p{
   float: right;
   margin-top: 0%;
 }
+#sign-in-button{
+  visibility: hidden;
+}
 footer {
     margin: auto;
     width: 100%;
