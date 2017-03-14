@@ -17,12 +17,12 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 
         // sign out
-        var signOutButton = document.getElementById('sign-out-button');
-        signOutButton.addEventListener('click', function() {
-            firebase.auth().signOut();
+      //  var signOutButton = document.getElementById('sign-out-button');
+      //  signOutButton.addEventListener('click', function() {
+      //      firebase.auth().signOut();
 
-            console.log("signOut")
-        });
+      //      console.log("signOut")
+      //  });
 
         // do things when a user signs in or out
 
@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function() {
             } else {
                 // User is signed out.
                 // ...
-      
+
                 base.style.visibility = 'hidden';
                 console.log('User logged out');
             }
