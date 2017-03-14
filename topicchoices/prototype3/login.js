@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 
         // do things when a user signs in or out
-        var overlay = document.getElementById('overlay');
+
         firebase.auth().onAuthStateChanged(function(user) {
             if (user) {
                 // User is signed in.
@@ -37,7 +37,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 var uid = user.uid;
                 var providerData = user.providerData;
                 // ...
-                overlay.style.visibility = "hidden";
+                var overlay = document.getElementById('overlay');
+                overlay.style.visibility = 'hidden';
                 console.log(user.displayName);
             } else {
                 // User is signed out.
