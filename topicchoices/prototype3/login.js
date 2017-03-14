@@ -39,10 +39,14 @@ document.addEventListener("DOMContentLoaded", function() {
                 // ...
                 var overlay = document.getElementById('overlay');
                 overlay.style.visibility = 'hidden';
+                var base = document.getElementById('base');
+                base.style.visibility = 'visible';
                 console.log(user.displayName);
             } else {
                 // User is signed out.
                 // ...
+                var base = document.getElementById('base');
+                base.style.visibility = 'hidden';
                 console.log('User logged out');
             }
         });
