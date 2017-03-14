@@ -39,8 +39,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 // ...
                 var overlay = document.getElementById('overlay');
                 overlay.style.visibility = 'hidden';
-                var out = document.getElementById('out');
-                out.style.visibility = 'visible';
                 var base = document.getElementById('base');
                 base.style.visibility = 'visible';
                 console.log(user.displayName);
