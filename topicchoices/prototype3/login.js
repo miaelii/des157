@@ -41,16 +41,12 @@ document.addEventListener("DOMContentLoaded", function() {
                 overlay.style.visibility = 'hidden';
                 var base = document.getElementById('base');
                 base.style.visibility = 'visible';
-                var base = document.getElementById('myMsg');
-                //use the alert() to concatenate a message
-                myMsg.innerHTML = ('How to Make ' + userEth + ' ' + userFood);
                 console.log(user.displayName);
             } else {
                 // User is signed out.
                 // ...
-                var base = document.getElementById('base');
+      
                 base.style.visibility = 'hidden';
-
                 console.log('User logged out');
             }
         });
