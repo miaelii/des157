@@ -58,6 +58,9 @@ blockquote:before, blockquote:after, q:before, q:after {
   background: rgba(255, 255, 255, 0.2);
   float: right;
 }
+#sign-in-button{
+  visibility: hidden;
+}
 ul {
     list-style-type: none;
     margin: 0;
