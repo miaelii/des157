@@ -70,7 +70,7 @@ ul {
         opacity: 0;
     }
     to {
-        margin-top: 25%;
+        margin-top: 15%;
         opacity: 1;
     }
 }
@@ -79,7 +79,7 @@ main {
     margin: auto;
     width: 60%;
     text-align: center;
-    margin-top: 25%;
+    margin-top: 15%;
     padding: 25px;
     animation-name: maintrans;
     animation-duration: 2s;
@@ -120,7 +120,7 @@ div {
 form {
     width: 100%;
     text-align: left;
-    font-size: 45pt;
+    font-size: 40pt;
     margin-top: 5%;
     margin-bottom: 5%;
     background-color: white;

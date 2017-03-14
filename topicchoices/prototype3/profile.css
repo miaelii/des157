@@ -47,7 +47,17 @@ blockquote:before, blockquote:after, q:before, q:after {
     content: '';
     content: none;
 }
-
+#sign-out-button{
+  display: block;
+  margin-bottom: 3%;
+  color: #262262;
+  text-align: center;
+  padding: 45px 16px;
+  text-decoration: none;
+  font-size: 30pt;
+  background: rgba(255, 255, 255, 0.2);
+  float: right;
+}
 ul {
     list-style-type: none;
     margin: 0;

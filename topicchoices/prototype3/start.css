@@ -47,7 +47,19 @@ blockquote:before, blockquote:after, q:before, q:after {
     content: '';
     content: none;
 }
+main{
+  margin-top: 15%;
+}
+p, .buttonz {
+    display: block;
+    color: #262262;
+    text-align: center;
+    padding: 45px 16px;
+    text-decoration: none;
+    font-size: 30pt;
+    background: rgba(255, 255, 255, 0.2);
 
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -74,10 +86,6 @@ li a {
 
 }
 
-li #prof {
-    background-color: #93CDD8;
-    color: white;
-}
 
 a {
     text-decoration: none;

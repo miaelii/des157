@@ -64,28 +64,16 @@ ul {
     font-size: 35pt;
 }
 
-@keyframes maintrans {
-    from {
-        margin-top: -90%;
-        opacity: 0;
-    }
-    to {
-        margin-top: 25%;
-        opacity: 1;
-    }
-}
-
 main {
     margin: auto;
     width: 60%;
     text-align: center;
     margin-top: 25%;
     padding: 25px;
-    animation-name: maintrans;
-    animation-duration: 2s;
-    background-color: white;
 }
-
+h1{
+  margin-bottom: 5%;
+}
 header {
     font-size: 50pt;
 }
@@ -131,14 +119,16 @@ li {
     width: 25%;
 }
 
-li a {
+li a, .buttonz {
     display: block;
+    margin-bottom: 3%;
     color: #262262;
     text-align: center;
     padding: 45px 16px;
     text-decoration: none;
     font-size: 30pt;
-    background: rgba(255, 255, 255, 0.2)
+    background: rgba(255, 255, 255, 0.2);
+
 }
 
 li #work {

@@ -47,7 +47,17 @@ blockquote:before, blockquote:after, q:before, q:after {
     content: '';
     content: none;
 }
-
+main{
+  text-align: center;
+}
+p{
+  margin: auto;
+  margin-top: 30%;
+  color: #262262;
+  font-size: 80pt;
+  text-align: left;
+  width: 90%;
+}
 ul {
     list-style-type: none;
     margin: 0;

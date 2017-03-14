@@ -51,12 +51,6 @@ table {
     border-spacing: 0;
 }
 
-p {
-    text-align: center;
-    font-size: 50pt;
-    margin-top: 50%;
-    margin-bottom: 10%;
-}
 
 form {
     margin-top: 600px;
@@ -67,20 +61,43 @@ input {
     font-size: 25pt;
     font-family: Futura-CondensedMedium, sans-serif;
 }
-
-main {
-    text-align: center;
-    width: 100%;
+main{
+  margin: auto;
+  margin-top: 35%;
+  text-align: center;
 }
-main a{
-  font-size: 25pt;
-  padding: 30px;
-  border-radius: 25px;
-  border-width: 4px;
-  border-style: solid;
-  border-color: white;
+a{
+  display: block;
+  margin-bottom: 3%;
+  color: #262262;
+  text-align: center;
+  padding: 45px 16px;
   text-decoration: none;
-  margin-top: 700px;
+  font-size: 30pt;
+  background: rgba(255, 255, 255, 0.2);
+
+}
+p, h1, a{
+  color: #262262;
+}
+h1{
+  font-size: 70px;
+  text-align: center;
+}
+p{
+  font-size: 25pt;
+}
+#sign-in-button{
+  display: block;
+  margin-bottom: 3%;
+  color: #262262;
+  text-align: center;
+  padding: 45px 16px;
+  text-decoration: none;
+  font-size: 30pt;
+  background: rgba(255, 255, 255, 0.2);
+  float: right;
+  margin-top: 0%;
 }
 footer {
     margin: auto;
