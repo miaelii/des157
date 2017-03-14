@@ -2,7 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", function() {
     console.log("DOM fully loaded and parsed");
-console.log('reading');
+
     // all other js here
     // wait until page loaded before doing anything
     window.addEventListener('load', function() {
@@ -41,7 +41,6 @@ console.log('reading');
                 overlay.style.visibility = 'hidden';
                 var base = document.getElementById('base');
                 //use the alert() to concatenate a message
-                base.innerHTML = ('<h1>Welcome to Fit Fifteen! ' + displayName + '!</h1> <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.');
                 console.log(user.displayName);
             } else {
                 // User is signed out.
