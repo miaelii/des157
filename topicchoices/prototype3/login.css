@@ -99,7 +99,8 @@ p{
   float: right;
   margin-top: 0%;
 }
-#sign-out-button{
+
+#base, #sign-out-button{
   visibility: hidden;
 }
 footer {

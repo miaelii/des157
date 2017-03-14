@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function() {
             } else {
                 // User is signed out.
                 // ...
-        
+      
                 base.style.visibility = 'hidden';
                 console.log('User logged out');
             }
