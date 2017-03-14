@@ -9,10 +9,6 @@
 </head>
 
 <body>
-  <ol>
-      <li><a href="https://validator.w3.org/check?uri=referer" target="_blank">valid html</a></li>
-      <li><a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank">valid css</a></li>
-  </ol>
     <main>
     </main>
     <footer>

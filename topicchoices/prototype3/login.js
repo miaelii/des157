@@ -40,13 +40,15 @@ document.addEventListener("DOMContentLoaded", function() {
                 var overlay = document.getElementById('overlay');
                 overlay.style.visibility = 'hidden';
                 var base = document.getElementById('base');
-                base.style.visibility = 'visible';
+                //use the alert() to concatenate a message
+                base.innerHTML = ('<h1>Welcome to Fit Fifteen! ' + displayName + '!</h1> <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.');
                 console.log(user.displayName);
             } else {
                 // User is signed out.
                 // ...
                 var base = document.getElementById('base');
                 base.style.visibility = 'hidden';
+
                 console.log('User logged out');
             }
         });
