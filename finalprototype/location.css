@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html {
+    min-height: 100%;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    background: linear-gradient(#93CDD8, #DAC0DD, #F1DCE8, #FFFCDF);
+    color: #262262;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#myMsg {
+    font-size: 35pt;
+}
+
+main {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    margin-top: 25%;
+    padding: 25px;
+}
+h1{
+  margin-bottom: 5%;
+}
+header {
+    font-size: 50pt;
+}
+
+input {
+    height: 50pt;
+    width: 50pt;
+}
+
+input[type="checkbox"] {
+    white-space: nowrap;
+    color: red;
+}
+
+input[type=submit] {
+    padding: 15px 35px;
+    background: #ccc;
+    color: gray;
+    border: 0 none;
+    cursor: pointer;
+    font-size: 20pt;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 190px;
+}
+
+div {
+    text-align: center;
+    margin-top: 5%;
+}
+
+form {
+    width: 100%;
+    text-align: left;
+    font-size: 45pt;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: white;
+}
+
+li {
+    float: left;
+    width: 25%;
+}
+
+li a, .buttonz {
+    display: block;
+    margin-bottom: 3%;
+    color: #262262;
+    text-align: center;
+    padding: 45px 16px;
+    text-decoration: none;
+    font-size: 30pt;
+    background: rgba(255, 255, 255, 0.2);
+
+}
+
+li #work {
+    background-color: #93CDD8;
+    color: white;
+}
+
+ol {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+
+}
+a, a#ex, a#cal, a#prof{
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* hidden state */
+
+#check {
+    margin: auto;
+    text-align: center;
+}
+
+
+/* active state */
+
+#check.active {
+    margin-top: 30%;
+    background: url('check-01.png') no-repeat;
+    animation: play 1.8s steps(19) forwards;
+    width: 313px;
+    height: 313px;
+}
+
+@keyframes play {
+    from {
+        background-position: 0px;
+    }
+    to {
+        background-position: -5937px;
+    }
+}

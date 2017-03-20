@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fit Fifteen</title>
+    <link href="login.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+
+<body>
+    <section id="overlay">
+        <button type='button' id='sign-in-button'>Sign In</button>
+        <a href="login.html"><button type='button' id='sign-out-button'>Sign Out</button></a>
+        <section id="firebase-output"></section>
+    </section>
+    <main>
+        <section id="base">
+            <h1>Welcome to Fit Fifteen!</h1>
+            <p>So glad to have you be a part of the Fit Community! You will get daily workout options depending on where you are or what equipment you have around you! The special features are still under construction, so sorry in advanced. Nevertheless, GO HAM, but don't forget to have fun!!!</p>
+            <a id="start" href="start.html">Continue</a>
+        </section>
+    </main>
+    <!--add your html here-->
+    <!--add links to validators-->
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="https://validator.w3.org/check?uri=referer" target="_blank">valid html</a></li>
+                <li><a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank">valid css</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="https://www.gstatic.com/firebasejs/3.7.1/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyCKLQs0n1QycdZ2iS17puJEw63ccdpWY6Q",
+            authDomain: "fit-fifteen.firebaseapp.com",
+            databaseURL: "https://fit-fifteen.firebaseio.com",
+            storageBucket: "fit-fifteen.appspot.com",
+            messagingSenderId: "528875052689"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script src="login.js"></script>
+</body>
+
+</html>
